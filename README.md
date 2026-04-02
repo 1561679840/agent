@@ -189,7 +189,7 @@ export DASHSCOPE_API_KEY="your_dashscope_api_key"
 streamlit run app.py
 ```
 
-浏览器将自动打开 `http://localhost:8501`，即可开始与智扫通机器人智能客服对话。
+浏览器将自动打开 `http://localhost:8501`，即可开始对话。
 
 ---
 
