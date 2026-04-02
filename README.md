@@ -51,7 +51,7 @@ zhisaotong-Agent/
 │   ├── rag_service.py            # RAG 检索摘要服务
 │   └── vector_store.py           # Chroma 向量库管理
     └── memory_manager.py           # 我添加的对话历史管理器
-    └── memory_repository.py        # 我添加的对话历史存储
+    └──=memory_retrieval_service.py       # 我添加的对话历史存储
     └── vector_store_memory.py           # 我添加的知识库管理(查看+删除)
 
 ├── model/
