@@ -1,0 +1,12 @@
+collection_name: agent
+memory_name: agent_memory
+persist_directory: chroma_db
+memory_persist_directory: memory_db
+k: 3
+data_path: data
+md5_hex_store: md5.text
+allow_knowledge_file_type: ["txt", "pdf"]
+
+chunk_size: 200
+chunk_overlap: 20
+separators: ["\n\n", "\n", ".", "!", "?", "。", "！", "？", " ", ""]

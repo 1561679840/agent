@@ -1,0 +1,8 @@
+chat_model_source: ollma           #choose in ['ollma','tongyi','OpenAI']
+chat_model_url: http://            #use OpenAI 
+chat_model_name: qwen3.5:0.8b
+embedding_model_source: ollma           #choose in ['ollma','tongyi','OpenAI']      
+embedding_model_name: nomic-embed-text   #nomic-embed-text,text-embedding-v4
+embedding_model_url: http://            #use OpenAI 
+# 向量存储提供商 ('chroma' 或 'milvus')
+vector_store_provider: chroma
